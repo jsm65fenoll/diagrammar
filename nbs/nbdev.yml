@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "diagrammar"
+  site-url: "https://jsm65fenoll.github.io/diagrammar"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/jsm65fenoll/diagrammar"
