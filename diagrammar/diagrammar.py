@@ -5,15 +5,15 @@
 # %% auto #0
 __all__ = ['n', 'Null', 'Neg', 'Node', 'End', 'Nt']
 
-# %% ../nbs/diagrammar.ipynb
+# %% ../nbs/diagrammar.ipynb #89d4c1e4
 from graphviz import Digraph, Source
 
-# %% ../nbs/diagrammar.ipynb
+# %% ../nbs/diagrammar.ipynb #319e51ca
 def n(other,**args):
     "A helper function to include grammar simbols in expressions."
     return Null._check(other,**args)
 
-# %% ../nbs/diagrammar.ipynb
+# %% ../nbs/diagrammar.ipynb #a2b36a8f
 class Null():
     "Empty graph with no input nor output nodes." 
     
